@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="39" started-at="2020-03-30T06:18:50Z" finished-at="2020-03-30T06:18:50Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="39" started-at="2020-03-30T06:18:50Z" finished-at="2020-03-30T06:18:50Z">
+      <class name="hptours.RESTApiTest">
+        <test-method status="PASS" signature="PostJira()[pri:0, instance:hptours.RESTApiTest@6442b0a6]" name="PostJira" duration-ms="0" started-at="2020-03-30T06:18:50Z" finished-at="2020-03-30T06:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostJira -->
+        <test-method status="PASS" signature="deleteRecord()[pri:0, instance:hptours.RESTApiTest@6442b0a6]" name="deleteRecord" duration-ms="0" started-at="2020-03-30T06:18:50Z" finished-at="2020-03-30T06:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRecord -->
+      </class> <!-- hptours.RESTApiTest -->
+      <class name="hptours.SeleniumTest">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:hptours.SeleniumTest@60f82f98]" name="BrowserAutomation" duration-ms="0" started-at="2020-03-30T06:18:50Z" finished-at="2020-03-30T06:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method status="PASS" signature="elementsUi()[pri:0, instance:hptours.SeleniumTest@60f82f98]" name="elementsUi" duration-ms="1" started-at="2020-03-30T06:18:50Z" finished-at="2020-03-30T06:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUi -->
+      </class> <!-- hptours.SeleniumTest -->
+      <class name="hptours.AppiumTest">
+        <test-method status="PASS" signature="AndriodApp()[pri:0, instance:hptours.AppiumTest@4411d970]" name="AndriodApp" duration-ms="7" started-at="2020-03-30T06:18:50Z" finished-at="2020-03-30T06:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AndriodApp -->
+        <test-method status="PASS" signature="NativeApp()[pri:0, instance:hptours.AppiumTest@4411d970]" name="NativeApp" duration-ms="0" started-at="2020-03-30T06:18:50Z" finished-at="2020-03-30T06:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeApp -->
+      </class> <!-- hptours.AppiumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
